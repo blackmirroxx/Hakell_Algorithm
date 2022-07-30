@@ -8,6 +8,4 @@ main = do
     putStrLn ("Hi " ++ name ++ " you rock ")
     putStrLn ("fact " ++ (show 3) ++ " is " ++ (show (fact 3)) )
     putStrLn ("fib " ++ (show 9) ++ " is " ++ (show (fib 9)) )
-	-- putStrLn ("maxi " ++ (show ( [1..7])) ++ " is " ++ (show ([1..7])) )
-	let list1 = [1, 3, 8]
-    print list1
+    putStrLn ("list " ++ (show ([1..9])) ++ " " ++ (show (maxi [1..9])) ) 
