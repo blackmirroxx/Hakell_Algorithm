@@ -1,3 +1,6 @@
+module MaxInList
+(maxi) where
+
 maxi :: [Int] -> Int
 maxi []  = 0
 maxi [x] = x
