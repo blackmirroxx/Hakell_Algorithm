@@ -1,3 +1,6 @@
+module Fibonacci
+(fib) where
+
 fib :: Int -> Int
 fib n
     | n <= 0    = 0
