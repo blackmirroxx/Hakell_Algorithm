@@ -1,3 +1,6 @@
+module QuickSort
+(qsort) where
+
 qsort :: [Int] -> [Int]
 qsort [] = []
 qsort (pivot:xs) = (qsort lowers) ++ [pivot] ++ (qsort highers)
