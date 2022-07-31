@@ -1,3 +1,6 @@
+module BinarySearch
+(bsearch) where 
+
 bsearch :: Int -> [Int] -> Bool
 bsearch x [] = False
 bsearch x ys
