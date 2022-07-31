@@ -14,3 +14,5 @@ main = do
     putStrLn "---"
     putStrLn ("binary serarch 0 in 1..9 " ++ (show ([1..9])) ++ " is in there ? -> " ++ (show (bsearch 0 ([1..9]))) )
     putStrLn "---"
+    putStrLn ("qsort in " ++ (show ([9,8..1])) ++ " -> " ++  (show (qsort ([9,8..1]))) )
+    putStrLn "---"
