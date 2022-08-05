@@ -1,8 +1,13 @@
+module Main
+(main) where
+
+
 import Recursion
 import Fibonacci
 import MaxInList
 import BinarySearch
 import QuickSort
+
 
 main = do
     putStrLn "Hello, what is your name ?"
