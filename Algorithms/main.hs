@@ -7,9 +7,11 @@ import Fibonacci
 import MaxInList
 import BinarySearch
 import QuickSort
-
+import MergeSort
+import System.IO
 
 main = do
+    hSetBuffering stdout NoBuffering
     putStrLn "Hello, what is your name ?"
     name <- getLine
     putStrLn ("Hi " ++ name ++ " you rock ")
@@ -21,3 +23,4 @@ main = do
     putStrLn "---"
     putStrLn ("qsort in " ++ (show ([9,8..1])) ++ " -> " ++  (show (qsort ([9,8..1]))) )
     putStrLn "---"
+	-- hFlush stdout

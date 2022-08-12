@@ -1,3 +1,6 @@
+module MergeSort
+(msort) where 
+
 msort :: [Int] -> [Int]
 msort []  = []
 msort [x] = [x]
