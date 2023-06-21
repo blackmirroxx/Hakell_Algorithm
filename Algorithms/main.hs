@@ -9,6 +9,7 @@ import QuickSort
 import MergeSort
 import System.IO
 import System.Environment 
+import Data.List
 
 
 main = do
@@ -28,3 +29,8 @@ main = do
     putStrLn "---"
     -- hFlush stdout
     -- to compile: ghc -o main main.hs 1_Recursion.hs .. 6_MergeSort.hs
+    -- to exegute: ./main <parameter>
+    -- nvim: <space>sf -> search file
+    -- nvim: :telescope keymaps<Up>-> show short cuts
+    -- nvim: :Mason -> enable languages servers 
+    -- nvim: :help lua
