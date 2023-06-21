@@ -8,6 +8,8 @@ import BinarySearch
 import QuickSort
 import MergeSort
 import System.IO
+import System.Environment 
+
 
 main = do
     hSetBuffering stdout NoBuffering
@@ -20,6 +22,9 @@ main = do
     putStrLn "---"
     putStrLn ("binary serarch 0 in 1..9 " ++ (show ([1..9])) ++ " is in there ? -> " ++ (show (bsearch 0 ([1..9]))) )
     putStrLn "---"
-    putStrLn ("qsort in " ++ (show ([9,8..1])) ++ " -> " ++  (show (qsort ([9,8..1]))) )
+    putStrLn ("qsort in " ++ (show ([9,8..1])) ++ " -> " ++ (show (qsort ([9,8..1]))) )
+    putStrLn "---"	
+    putStrLn ("msort in " ++ (show ([9,8..1])) ++ " -> " ++ (show (msort ([9,8..1]))) )
     putStrLn "---"
-	-- hFlush stdout
+    -- hFlush stdout
+    -- to compile: ghc -o main main.hs 1_Recursion.hs .. 6_MergeSort.hs
