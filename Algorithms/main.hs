@@ -13,7 +13,10 @@ import Data.List
 
 
 main = do
-    hSetBuffering stdout NoBuffering
+    args <- getArgs -- IO stream 
+    putStrLn "CLI arguments are : "
+    mapM putStrLn args
+    hSetBuffering stdout NoBuffering -- clear the buffer after the cli has been used
     putStrLn "Hello, what is your name ?"
     name <- getLine
     putStrLn ("Hi " ++ name ++ " you rock ")
